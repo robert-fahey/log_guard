@@ -1,0 +1,24 @@
+organisation: MyOrganization
+appName: MyApplication
+range: 100
+logCodes:
+  - code: 100
+    level: ERROR
+    description: Unexpected null pointer encountered.
+    humanReadableCode: ERROR_NULL_POINTER
+  - code: 200
+    level: WARN
+    description: Data format mismatch, falling back to default.
+    humanReadableCode: WARN_DATA_FORMAT_MISMATCH
+  - code: 300
+    level: INFO
+    description: Database connection successfully established.
+    humanReadableCode: INFO_DB_CONNECTION_ESTABLISHED
+  - code: 400
+    level: DEBUG
+    description: Starting API endpoint health check.
+    humanReadableCode: DEBUG_HEALTH_CHECK
+  - code: 500
+    level: TRACE
+    description: Beginning detailed transaction trace.
+    humanReadableCode: TRACE_TRANSACTION
