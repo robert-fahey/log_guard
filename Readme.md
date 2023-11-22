@@ -49,7 +49,3 @@ The `getLogCodesFromYaml()` function reads and parses the `log_codes.yaml` file 
 The `getLogsFromStdin()` function reads the application logs from the standard input, parses each log entry to extract the `Code`, and returns a list of these codes.
 
 In the `main()` function, the coverage is checked by comparing the list of log codes from the YAML file and the list of log codes from the application logs. The function logs any log code not covered by the application logs and calculates the coverage percentage.
-
-----------
-
-The above content should be added to your README file after the "Purpose of LogGuard" section and before the "Purpose of the YAML Contract" section.
